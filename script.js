@@ -5,7 +5,6 @@ function reset() {
     winner = Math.floor(Math.random() * 3) + 1;
     $("#mixbuttons").hide();
     return document.getElementById("message").innerHTML = "";
-
 }
 
 function check_button(id) {
